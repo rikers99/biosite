@@ -211,6 +211,22 @@ footer p a {
         grid-column: 1 / span 3;
     }
 
+	#exercises {
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        background: linear-gradient(to right, #ccc, #fff);
+        background-color: #f2f2f2;
+        padding: 1% 2%;
+    }
+    
+    #exercises dt {
+        font-weight: bold;
+    }
+    
+    #exercises dd {
+        padding: 0.5% 1% 2% 0;
+    }
+
 	/* Tablet Viewport: Style rules for table */
     table {
         border: 1px solid #000;
